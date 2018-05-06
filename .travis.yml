@@ -32,3 +32,7 @@ deploy:
     tags: false
     repo: TwrpBuilder/device_huawei_y360
     branch: mm6.0
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
