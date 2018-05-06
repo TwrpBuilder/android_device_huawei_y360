@@ -36,3 +36,7 @@ deploy:
 branches:
   except:
     - /^(?i:untagged)-.*$/
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
